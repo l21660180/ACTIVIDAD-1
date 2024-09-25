@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostrar Mensaje</title> <!-- El título de la página web que aparece en la pestaña del navegador -->
+</head>
+<body>
+    <!-- Etiqueta de tipo texto (p) con id "soyelid" -->
+    <!-- Esta etiqueta "p" (párrafo) es donde se mostrará el mensaje -->
+    <!-- Tiene un id llamado "soyelid" para que JavaScript pueda identificarla y modificarla -->
+    <p id="soyelid"></p>
+
+    <!-- Script para enseñar el mensaje -->
+    <!-- Aquí empieza el código JavaScript que ejecuta una acción cuando se carga la página -->
+    <script>
+        // Esta función se va a ejecutar cuando la página se haya cargado 
+        window.onload = function() {
+            // Busca el elemento con id "soyelid" en la página y cambia su texto a "No me gusta la programación"
+            document.getElementById('soyelid').innerText = 'No me gusta la programación';
+        };
+    </script>
+</body>
+</html>
+
+
+
